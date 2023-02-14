@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  font-family: 'Space Grotesk', sans-serif;
+  max-width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.row {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 1mm;
+  margin-bottom: 2%;
+}
+
+.winning-buzz {
+  font-family: 'Space Grotesk', sans-serif;
+  max-width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  animation: shake 0.5s;
+  animation-iteration-count: 4;
+  transform: translate(-50%, -50%);
+}
+
+.btn-rebecca {
+  text-shadow: 0 0 10px rgb(242, 247, 255), 0 0 20px rgb(126, 179, 195), 0 0 30px #000fe7, 0 0 40px #f139fb, 0 0 50px #3826fe, 0 0 60px #5465ff, 0 0 70px #d306fc;
+}
+
+.btn-rebecca-dark {
+  text-shadow: 0 0 13px rgb(7, 26, 101), 0 0 15px rgb(33, 3, 48), 0 0 30px #5e68f2, 0 0 40px #fde1fe, 0 0 50px #3826fe, 0 0 60px #5465ff, 0 0 70px #d306fc;
+  color: rgb(208, 0, 255);
+}
+
+.bottom {
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.dark-mode {
+  background-color: black;
+  height: 100vh;
+  color: aliceblue;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-50%, -50%) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-50%, -50%) rotate(1deg);
+
+  }
+
+  30% {
+    transform: translate(-50%, -50%) rotate(0deg);
+
+  }
+
+  40% {
+    transform: translate(-50%, -50%) rotate(1deg);
+
+  }
+
+  50% {
+    transform: translate(-50%, -50%) rotate(-1deg);
+
+  }
+
+  60% {
+    transform: translate(-50%, -50%) rotate(0deg);
+
+  }
+
+  70% {
+    transform: translate(-50%, -50%) rotate(-1deg);
+
+  }
+
+  80% {
+    transform: translate(-50%, -50%) rotate(1deg);
+
+  }
+
+  90% {
+    transform: translate(-50%, -50%) rotate(0deg);
+
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(-1deg);
+
+  }
+
+}
