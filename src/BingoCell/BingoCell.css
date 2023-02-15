@@ -1,13 +1,15 @@
 .cell {
-    height: 16vh;
+    height: 16.5vh;
     padding: 1%;
     border-radius: 4%;
     /* border: 2px solid rebeccapurple; */
     border: 2px solid thistle;
+    font-size: smaller;
 }
 
 .central {
-    font-weight: 600;
+    font-weight: 500;
+    font-size: large;
     background-color: aliceblue;
 }
 

@@ -6,7 +6,8 @@ body {
 }
 
 .grid {
-  font-family: 'Space Grotesk', sans-serif;
+  /* font-family: 'Space Grotesk', sans-serif; */
+  font-family: monospace;
   max-width: 50vw;
   position: absolute;
   top: 50%;
@@ -22,8 +23,9 @@ body {
 }
 
 .winning-buzz {
-  font-family: 'Space Grotesk', sans-serif;
-  max-width: 700px;
+  /* font-family: 'Space Grotesk', sans-serif; */
+  font-family: monospace;
+  max-width: 50vw;
   position: absolute;
   top: 50%;
   left: 50%;
