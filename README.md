@@ -1,1 +1,2 @@
-# Bingooo Challenge
+## Bingooo V2.0
+

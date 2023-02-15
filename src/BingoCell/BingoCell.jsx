@@ -1,7 +1,8 @@
 import './BingoCell.css';
 
-function BingoCell({ index, onClick, quoteObj, darkMode }) {
-    const className = (index === "22"
+function BingoCell({ index, onClick, quoteObj, darkMode, centralCellIndex }) {
+    console.log(centralCellIndex)
+    const className = (index === centralCellIndex
         ? "btn cell btn-rebecca central" 
         : darkMode && !quoteObj.isClicked
             ? "btn reversed cell"

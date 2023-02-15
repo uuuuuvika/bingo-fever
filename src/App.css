@@ -34,12 +34,12 @@ body {
 }
 
 .btn-rebecca {
-  text-shadow: 0 0 10px rgb(242, 247, 255), 0 0 20px rgb(126, 179, 195), 0 0 30px #000fe7, 0 0 40px #f139fb, 0 0 50px #3826fe, 0 0 60px #5465ff, 0 0 70px #d306fc;
+  text-shadow: 0 0 10px rgb(242, 247, 255), 0 0 30px #000fe7, 0 0 40px #f139fb, 0 0 50px #3826fe;
 }
 
 .btn-rebecca-dark {
-  text-shadow: 0 0 13px rgb(7, 26, 101), 0 0 15px rgb(33, 3, 48), 0 0 30px #5e68f2, 0 0 40px #fde1fe, 0 0 50px #3826fe, 0 0 60px #5465ff, 0 0 70px #d306fc;
-  color: rgb(208, 0, 255);
+  text-shadow: 0 0 13px rgb(7, 26, 101), 0 0 15px rgb(33, 3, 48), 0 0 30px #5e68f2, 0 0 40px #fde1fe;
+  color: rgb(150, 22, 255);
 }
 
 .bottom {
@@ -55,7 +55,7 @@ body {
 
 @keyframes shake {
   0% {
-    transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-51%, -50%) rotate(0deg);
   }
 
   10% {

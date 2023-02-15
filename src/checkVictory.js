@@ -1,6 +1,6 @@
 function checkVictory(grid) {
     if (grid === null || grid.length === 0 || grid === undefined) {
-        return false;
+        return 0;
     }
     let winningCombinations = 0;
     //check rows
@@ -15,6 +15,7 @@ function checkVictory(grid) {
         for (let i = 0; i < grid.length; i++) {
             if (!grid[i][j].isClicked) {
                 columnVictoryFlag = false;
+                break;
             }
         }
         if (columnVictoryFlag) {
@@ -25,11 +26,11 @@ function checkVictory(grid) {
     let mainDiagonalVictoryFlag = true;
     let secondaryDiagonalVictoryFlag = true;
     for (let i = 0; i < grid.length; i++) {
-        // Check main diagonal (top left to bottom right)
-        if (!grid[i][i].isClicked) { // for each row with index i, it checks corresponding cell in main and sec diagonals
+        // top left to bottom right
+        if (!grid[i][i].isClicked) {
             mainDiagonalVictoryFlag = false;
         }
-        // Check secondary diagonal (top right to bottom left)
+        // top right to bottom left
         if (!grid[i][grid.length - 1 - i].isClicked) {
             secondaryDiagonalVictoryFlag = false;
         }
