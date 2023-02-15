@@ -7,7 +7,7 @@ Eurovision Bingo is an updated version of a bingo app created by <kbd><a href="h
 ### How to Play
 The objective of the game is to click all the cells in a single row, column, or diagonal to win. 
 
-To start playing, simply <kbd><a href="https://uuuuuvika.github.io/bingo-fever/">click here</a></kbd>c. Then, follow these easy steps:
+To start playing, simply <kbd><a href="https://uuuuuvika.github.io/bingo-fever/">click here</a></kbd>. Then, follow these easy steps:
 
 - Whenever something from the board happens - click on corresponding cell to mark it as "clicked".
 - Continue clicking cells until you have a row, column, or diagonal of clicked cells.
