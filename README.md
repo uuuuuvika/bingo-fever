@@ -2,8 +2,6 @@
 
 Eurovision Bingo is an updated version of a bingo app created by <kbd><a href="https://github.com/uuuuuvika">uuuuvika</a></kbd> as a technical challenge. The bingo game is themed around the Eurovision Song Contest, and is perfect for playing with friends during the event.
 
-<img width="1440" alt="euroBingo" src="https://user-images.githubusercontent.com/47716922/219062572-6ab20000-73ee-4c8e-98f8-0698a420c2d4.png">
-
 <img width="1440" alt="bd" src="https://user-images.githubusercontent.com/47716922/219062600-cb4784e1-d6f2-4f1e-adb8-79ce2e2927fd.png">
 
 ### How to Play
