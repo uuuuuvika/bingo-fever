@@ -4,7 +4,7 @@
     border-radius: 4%;
     /* border: 2px solid rebeccapurple; */
     border: 2px solid thistle;
-    font-size: smaller;
+    font-size: medium;
 }
 
 .central {
@@ -19,6 +19,6 @@
 
 @media screen and (max-width: 600px) {
     .cell {
-        font-size: 2.8vw;
+        font-size: 2.5vw;
     }
 }

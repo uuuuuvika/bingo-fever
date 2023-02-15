@@ -12,6 +12,7 @@ import playSound from './makeSound';
 // (more is currently impossible due to Bootstap greed limitations,
 // can be fixed with costume CSS)(any more is not possible at present due to limitations with Bootstrap's grid, 
 // however this can be resolved by using custom CSS)
+// depending on the size of your grid, you might want to adjust the height and width of CSS grid a bit to fit your needs.
 const ROWS = 5;
 const COLUMNS = 5;
 
