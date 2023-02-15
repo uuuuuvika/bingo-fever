@@ -18,5 +18,5 @@ To start playing, simply <kbd><a href="https://uuuuuvika.github.io/bingo-fever/"
 - Fork this repo
 - Clone this repo
 
-This app allows you to create a bingo board of any size by changing the ROWS and COLUMNS constants in the ```shell $ App.js``` file. Depending on the size of your grid, you might want to adjust the height and width of CSS grid a bit to fit your needs.
+This app allows you to create a bingo board of any size by changing the ROWS and COLUMNS constants in the ```App.js``` file. Depending on the size of your grid, you might want to adjust the height and width of CSS grid a bit to fit your needs.
 
