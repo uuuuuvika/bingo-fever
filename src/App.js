@@ -34,7 +34,7 @@ function App() {
       cells = quotes.sort(() => Math.random() - 0.5).slice(0, ROWS * COLUMNS - 1).map(quote => { 
         return { quote: quote, isClicked: false }
       });
-      cells.splice((ROWS * COLUMNS - 1) / 2, 0, { quote: "CONF CALL BINGO", isClicked: true });
+      cells.splice((ROWS * COLUMNS - 1) / 2, 0, { quote: "EUROVISION SONG CONTEST BINGO", isClicked: true });
     }
     else { // shuffle for even grids
       cells = quotes.sort(() => Math.random() - 0.5).slice(0, ROWS * COLUMNS).map(quote => {
