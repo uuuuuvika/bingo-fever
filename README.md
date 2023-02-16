@@ -23,5 +23,20 @@ This app allows you to create a bingo board of any size by changing the ROWS and
 const ROWS = 5;
 const COLUMNS = 5;
 ```
-Depending on the size of your grid, you might want to adjust the height and width of CSS grid a bit to fit your needs. Moreover, you can easily modify the theme to your liking by adjusting the ```quote.json``` file. If you are using an odd grid, you will also need to customize the text value of the central cell in ```App.js``` file to match the name of your theme.
-
+Depending on the size of your grid, you might want to adjust the height and width of CSS grid a bit to fit your needs. 
+Moreover, you can easily modify the theme to your liking by adjusting the ```quote.json``` file. If you are using an odd grid, you will also need to customize the text value of the central cell in ```App.js``` file to match the name of your theme.
+```  JavaScript
+useEffect(() => {
+  let startingBoard = [];
+  let cells;
+  if (ROWS % 2 !== 0) {
+    // shuffle & insert the central cell for odd grids
+    cells = quotes.sort(() => Math.random() - 0.5).slice(0, ROWS * COLUMNS - 1).map(quote => {
+      return { quote: quote, isClicked: false }
+    });
+    // Change the central cell quote
+    cells.splice((ROWS * COLUMNS - 1) / 2, 0, { quote: "NEW QUOTE HERE", isClicked: true });
+  }
+  // ... the rest of the code remains the same
+}, []);
+```
