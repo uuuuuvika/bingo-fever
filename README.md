@@ -1,6 +1,6 @@
 # Eurovision Bingo
 
-Eurovision Bingo is an updated version of a bingo app created by <kbd><a href="https://github.com/uuuuuvika">uuuuvika</a></kbd> as a technical challenge. The bingo game is themed around the Eurovision Song Contest, and is perfect for playing with friends during the event.
+Eurovision Bingo is an updated version of a bingo app created by <kbd><a href="https://github.com/uuuuuvika">uuuuvika</a></kbd> as a technical challenge. The bingo game is themed around the Eurovision Song Contest, and is perfect for playing with friends during the event. The theme however can be easealy changed on whatever (more about it bellow)
 
 <img width="1440" alt="bd" src="https://user-images.githubusercontent.com/47716922/219062600-cb4784e1-d6f2-4f1e-adb8-79ce2e2927fd.png">
 
@@ -18,5 +18,5 @@ To start playing, simply <kbd><a href="https://uuuuuvika.github.io/bingo-fever/"
 - Fork this repo
 - Clone this repo
 
-This app allows you to create a bingo board of any size by changing the ROWS and COLUMNS constants in the ```App.js``` file. Depending on the size of your grid, you might want to adjust the height and width of CSS grid a bit to fit your needs.
+This app allows you to create a bingo board of any size by changing the ROWS and COLUMNS constants in the ```App.js``` file. Depending on the size of your grid, you might want to adjust the height and width of CSS grid a bit to fit your needs. Moreover, you can easily modify the theme to your liking by adjusting the ```quote.json``` file. If you are using an odd grid, you will also need to customize the text value of the central cell in ```App.js``` file to match the name of your theme.
 
