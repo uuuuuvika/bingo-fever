@@ -2,7 +2,7 @@
 
 The bingo game is themed around the Eurovision Song Contest, and you can play it during the event. The theme however can be easealy changed on whatever (more about it below). Eurovision Bingo is an updated version of <a href="https://github.com/uuuuuvika/Bingooo">this bingo app</a> created by me as a technical challenge.
 
-<img width="1440" alt="bd" src="https://user-images.githubusercontent.com/47716922/219062600-cb4784e1-d6f2-4f1e-adb8-79ce2e2927fd.png">
+<img width="1439" alt="Untitled" src="https://user-images.githubusercontent.com/47716922/221980041-d4616055-db24-4cd7-ae7d-b2c7d363d288.png">
 
 ### How to Play
 The objective of the game is to click all the cells in a single row, column, or diagonal to win. To start playing, simply <kbd><a href="https://uuuuuvika.github.io/bingo-fever/">CLICK HERE</a></kbd>. Then, follow these easy steps:
