@@ -94,9 +94,9 @@ function App() {
             })
           }) : null}
         </div>
-        <button className={darkMode ? 'btn btn-rebecca-dark bottom' : 'btn btn-rebecca bottom'} onClick={() => { setDarkMode(!darkMode) }}>{darkMode ? 'Light Mode' : 'Dark Mode'}</button>
-        <button className={darkMode ? 'btn btn-rebecca-dark bottom' : 'btn btn-rebecca bottom'} onClick={handleSound}>{mute ? 'Turn On Sound' : 'Mute Sound'}</button>
-        <button className={darkMode ? 'btn btn-rebecca-dark bottom' : 'btn btn-rebecca bottom'} onClick={() => { window.location.reload(false) }}>New Board</button>
+        <button className={darkMode ? 'btn bottom-light bottom' : 'btn bottom'} onClick={() => { setDarkMode(!darkMode) }}>{darkMode ? 'Light Mode' : 'Dark Mode'}</button>
+        <button className={darkMode ? 'btn bottom-light bottom' : 'btn bottom'} onClick={handleSound}>{mute ? 'Turn On Sound' : 'Mute Sound'}</button>
+        <button className={darkMode ? 'btn bottom-light bottom' : 'btn bottom'} onClick={() => { window.location.reload(false) }}>New Board</button>
       </div>
     </div>
   );

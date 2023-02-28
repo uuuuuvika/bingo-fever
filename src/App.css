@@ -38,23 +38,30 @@ body {
 }
 
 .btn-rebecca {
-  text-shadow: 0 0 10px rgb(242, 247, 255), 0 0 30px #000fe7, 0 0 40px #f139fb, 0 0 50px #3826fe;
+  text-shadow: 0 0 10px rgb(242, 255, 250), 0 0 30px #9bff22, 0 0 40px #41a200, 0 0 50px #00f2ad, 0 0 60px #00f210;
+  color: rgb(40, 40, 40);
 }
 
 .btn-rebecca-dark {
-  text-shadow: 0 0 13px rgb(7, 26, 101), 0 0 15px rgb(33, 3, 48), 0 0 30px #5e68f2, 0 0 40px #fde1fe;
-  color: rgb(150, 22, 255);
+  text-shadow: 0 0 13px rgb(11, 25, 82), 0 0 15px rgb(0, 109, 75), 0 0 30px #00f331, 0 0 40px #00ff73;
+  color: rgb(188, 251, 0);
 }
 
 .bottom {
   margin-right: 1%;
   margin-left: 1%;
+  background-color: rgb(112, 97, 247);
+  font-weight: 800;
+}
+
+.bottom-light {
+  background-color: yellow;
 }
 
 .dark-mode {
   background-color: black;
   height: 100vh;
-  color: aliceblue;
+  color: rgb(179, 255, 0);
 }
 
 @keyframes shake {
