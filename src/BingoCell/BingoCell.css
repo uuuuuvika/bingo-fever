@@ -2,19 +2,26 @@
     height: 16.5vh;
     padding: 1%;
     border-radius: 4%;
-    /* border: 2px solid rebeccapurple; */
-    border: 2px solid thistle;
+    border: 2px solid rgb(117, 255, 244);
     font-size: medium;
+    font-weight: 600;
 }
 
 .central {
-    font-weight: 500;
-    font-size: large;
-    background-color: aliceblue;
+    font-weight: 800;
+    font-size: x-large;
+    background-color: rgb(226, 255, 3);
+    text-shadow: 2px 2px 2px rgb(102, 215, 15);
+    color: rgb(112, 97, 247);
+}
+
+.central:hover {
+    background-color: rgb(226, 255, 3);
+    color: black;
 }
 
 .reversed {
-    color: rgb(255, 255, 255);
+    color: rgb(202, 202, 202);
 }
 
 @media screen and (max-width: 600px) {
