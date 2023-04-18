@@ -5,7 +5,7 @@ The bingo game is themed around the Eurovision Song Contest, and you can play it
 <img width="1439" alt="dd" src="https://user-images.githubusercontent.com/47716922/221993457-15ebd796-9941-41bb-8af9-bc697f60b911.png">
 
 ### How to Play
-The objective of the game is to click all the cells in a single row, column, or diagonal to win. To start playing just <kbd><a href="https://uuuuuvika.github.io/bingo-fever/">CLICK HERE</a></kbd>. Then, follow these easy steps:
+The objective of the game is to click all the cells in a single row, column, or diagonal to win. To start playing just <kbd><a href="https://uuuuuvika.github.io/bingo-fever/">CLICK HERE</a></kbd> and follow these easy steps:
 
 - Whenever something from the board happens - click on corresponding cell to mark it as "clicked".
 - Continue clicking cells until you have a row, column, or diagonal of clicked cells.
