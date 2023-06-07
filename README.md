@@ -1,6 +1,6 @@
 # Eurovision Bingo
 
-The bingo game is themed around the Eurovision Song Contest, and you can play it during the event. The theme however can be easealy changed on whatever (more about it below). Eurovision Bingo is an updated version of <a href="https://github.com/uuuuuvika/Bingooo">this bingo app</a> created by me as a technical challenge.
+The bingo game is themed around the Eurovision Song Contest, and you can play it during the event. The theme however can be easealy changed on whatever (more about it below).
 
 <img width="1439" alt="dd" src="https://user-images.githubusercontent.com/47716922/221993457-15ebd796-9941-41bb-8af9-bc697f60b911.png">
 
